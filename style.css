@@ -404,7 +404,7 @@ nav ul li a:hover::after{
     text-align: center;
     padding: 25px 0;
     background: #262626;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* Make wesite responsive (small screen)*/
