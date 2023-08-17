@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title> Claudia Del Peso </title>
+    <link rel = "stylesheet" href = "node_modules/normalize.css/">
     <link rel = "stylesheet" href = "style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/5f8c2953d1.js" crossorigin="anonymous"></script>
@@ -35,7 +36,10 @@
     <div class="col1"><img src="images/conferencia.jpg"></div>
     <div class="col2">
         <h1 class="aboutinfo">About Me</h1>
-        <p class="title-text">Get to know a bit more about my professional background!</p>
+        <p class="title-text">
+            Get to know a bit more about my accademic background!
+            Check the section below to see what I enjoy doing!
+        </p>
         
         <div class="options">
             <button class="options-tab active-option" onclick="opentab('education')">Education</button>
@@ -199,7 +203,7 @@
 <div id="projects">
     <div class="container">
     <h1 class="aboutinfo">My Projects</h1>
-    <p class="title-text">The projects I have worked on</p>
+    <p class="title-text">The little things I have enjoyed working on!</p>
 
     <div class="work-list">
         <div class="card">
@@ -219,7 +223,7 @@
                     annotated abstract syntax tree which is passed to the interpreter that interprets the code. There is also code for a code generator that takes the result of the type checker and produces java class files with JVM code. 
                     Finally, it includes an interpreter for a small fragment of haskell (a functional programming language). </p>
                 <span class="language"> Haskell, BNFC  <a href="https://github.com/claudiadelpeso/compiler" target="_blank"><p class="cinfo"><i class="fab fa-github"></i></p></a> </span>
-                </div>
+            </div>
         </div>
         
         <div class="card">
@@ -229,10 +233,44 @@
                     I implemented the turtle graphics languages as deep embedded language. There are two options when running the program. You can choose to print all the actions the turtle performs (textual interface)
                     or you can choose to draw the actions graphically.   </p>
                 <span class="language"> Haskell, HGL library  <a href="https://github.com/claudiadelpeso/turtle-graphics" target="_blank"><p class="cinfo"><i class="fab fa-github"></i></p></a> </span>
-                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work-list">
+        <div class="card">
+            <div class="pelement">
+                <h3 class="pname">Second Order SQL Injection Attack Project</h3>
+                <p>
+                    The goal of this project was to understand how second order sql attacks are performed and how they can be prevented. To do this we created a website and tried finding its vulnerabilities with second order injection attacks.
+                    After successfully hacking the website we implemented the necessary security meassures. We learnt how second order injections attacks are and how they are carried out, and most importantly how to prevent them.
+                </p>
+                <span class="language"> HTML, CSS  <a href="https://github.com/claudiadelpeso/SecondOrderAttack" target="_blank"><p class="cinfo"><i class="fab fa-github"></i></p></a> </span>
+            </div>
         </div>
 
-
+        <div class="card">
+            <div class="pelement">
+                <h3 class="pname">Summer Job at Inditex</h3>
+                <p> 
+                    I spent the summer of 2023 working at Inditex. They have a big technology department where they do a lot of interesting things. 
+                    I joined a developer team that was working on a python framework. I learnt, not only a lot of python, but also object oriented programming, github workflows, working in agile and much more. 
+                    I was happy to learn what it is like to work in a big compan in a team and even more happy to be able to contribute to their tool. 
+                </p>
+                <span class="language"> Python, Git, GitHub  </span>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="pelement">
+                <h3 class="pname">International Exchange</h3>
+                <p> 
+                    I am currently doing an exchange in Hong Kong at the engineering department. I will be taking interesting courses from BlockChain tecnology to Competitive Programming.
+                    I am looking forward to studying a broad and not only learning about computer science and programming but also to learn about a new culture and language. 
+                </p>
+                <span class="language"> C++, Python</span>
+            </div>
+        </div>
     </div>
     </div>
 </div>
